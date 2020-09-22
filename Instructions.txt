@@ -1,0 +1,8 @@
+Before you attempt to run or compile the example project you must first compile the ExtendedTimer.vbp project.
+Doing this will register this Active-X User control's classe(s) to which to example project will interface with.
+
+If you use this control in you're application you must also redistribute it and register it on the clients machine.
+If you wish not to redistribute this along with you're application, then add the UserControl file: ExtTimer.ctl to you're project. Note: If you do this VB will automatically change this classes public property to false, if you wish to re-compile the user control project in the future you must change its public property to true.
+
+Thank you,
+Alex Smoljanovic, Salex Software 2001-2003.
